@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  font-family: "mukta Mahee";
+
+}
+
+/*
+
+This is the header
+
+*/
+
+
+.header-wrap {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #dedede
+
+}
+.main-nav a {
+  display: block;
+  background-color: #fff;
+  text-decoration:none;
+  color: #000;
+  padding: 5px ;
+  margin: 5px 25px;
+}
+.header-wrap p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0 30px;
+
+}
+.header-wrap img {
+  width: 60%;
+  margin: 20px 0;
+}
+.header-wrap h1 {
+  padding-top: 15px;
+}
+
+
+
+/*
+
+This is the Container
+
+*/
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container img {
+  width: 90%
+}
+.container h3 {
+  padding-top: 30px ;
+}
+.container p {
+  padding: 30px;
+}
+.container h2 {
+  padding: 50px;
+}
+
+
+/*
+
+This is the Footer
+
+*/
+
+
+
+
+.footer-wrap {
+  margin: 0 auto;
+  text-align: center;
+
+  background-color: #dedede;
+
+}
+
+.footer-wrap h2,
+.footer-wrap p
+{
+
+}
+
+
+.footer-wrap h3 {
+  display: inline-block;
+  background-color: #dedede;
+  overflow: hidden;
+}
+#footer-left {
+  float: left;
+  padding-left: 20px;
+
+
+
+}
+#footer-right {
+  text-align: right;
+  margin-left: 15%;
+  text-decoration: none;
+}
+
+#footer-right a {
+   text-decoration: none;
+   color: #000;
+}
+
+#footer-left a {
+   text-decoration: none;
+   color: #000;
+}
+
+
+#footer-right-none {
+  display: none;
+}
+
+.footer-bottom {
+  border-top: 3px solid #ccc;
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+footer.footer-wrap h2 {
+  padding-top: 5%;
+}
+
+/*
+
+This is the Tablet media query
+
+*/
+
+@media (min-width: 768px) {
+ .main-nav a {
+  display: inline-block;
+  background-color: inherit;
+}
+
+.header-wrap img{
+  float: right;
+  width: 50%;
+  padding-right: 5%;
+
+}
+.header-wrap p{
+  float: left;
+  width: 40%;
+  padding: 10% 0 0 2.5%;
+
+}
+
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.container div {
+
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.footer-bottom {
+  width: 100%;
+}
+
+#footer-right {
+  display: none;
+}
+
+#footer-right-none {
+  display: inline-block;
+  margin-left: 20px;
+  text-align: right;
+}
+#footer-right-none a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: #000;
+}
+#footer-left {
+  margin-right: 30%;
+}
+
+footer.footer-wrap p {
+  padding: 5px 100px;
+}
+
+.footer-wrap h2 {
+    padding-top: 10%;
+}
+
+
+}
+
+/*
+
+This is the Desktop media query
+
+*/
+
+
+@media (min-width: 1024px) {
+ .main-nav a {
+  display: inline-block;
+  background-color: inherit;
+}
+
+.header-wrap img{
+  float: right;
+  width: 40%;
+  padding-right: 5%;
+
+}
+.header-wrap p{
+  float: left;
+  width: 40%;
+  padding: 5% 0 0 2.5%;
+
+}
+
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.container div {
+
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.footer-bottom {
+  width: 100%;
+}
+
+#footer-right {
+  display: none;
+}
+
+#footer-right-none {
+  display: inline-block;
+  margin-left: 20px;
+  text-align: right;
+
+}
+#footer-right-none a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: #000;
+}
+#footer-left {
+  margin-right: 50%;
+}
+
+footer.footer-wrap p {
+  padding: 5px 100px;
+}
+
+.header-wrap h1 {
+  float: left;
+  padding: 0 25% 0 5%;
+}
+
+.main-nav {
+  float: right;
+  padding: 15px 0 0 20%;
+
+}
+.img-float {
+   display: inline-block;
+}
+
+.footer-wrap h2 {
+    padding-top: 5%;
+}
+
+
+
+}
+
+ 
